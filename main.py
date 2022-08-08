@@ -30,7 +30,7 @@ class Main:
         for i in range(3):
             self.shop.addTerminal()
         self.clientsID = self.dodajKlientow(100)
-        ludzie = list(self.clientsID.keys());
+        ludzie = list(self.clientsID.keys())
 
         for i in range(300):
             ile = random.choice([0,1,2,3,4]) # zakładam że i to obsługa jednego stolika - przy nim może być kilka osób, wszyscy są obsługiwani jednym terminalem
